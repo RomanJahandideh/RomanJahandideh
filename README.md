@@ -1,6 +1,6 @@
 <img src="github-header.png" alt="header"/>
 Technical Artist with a background in architecture who enjoys building digital worlds instead of buildings. I work with Unity and creative technologies to design interactive environments, prototype immersive experiences, and explore new ideas in real-time 3D and spatial computing. I’m especially interested in combining design, technology, and storytelling to create engaging interactive systems.
-Explore more of my projects and environments at romanjahandideh.com.
+Explore more of my projects and interactive environments on my portfolio: [romanjahandideh.com](https://romanjahandideh.com)
 
 
 ## 🌐 Socials:
