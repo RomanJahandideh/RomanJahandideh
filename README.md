@@ -1,3 +1,4 @@
+<img src="github-header.png" alt="header"/>
 # About Me:
 Technical Artist who studied architecture and somehow ended up building digital worlds instead of buildings.  <br>I design interactive environments, experiment with creative tech, and occasionally teach computers new tricks.
 
