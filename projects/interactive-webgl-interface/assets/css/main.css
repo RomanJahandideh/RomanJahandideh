@@ -93,25 +93,17 @@ body{
   position: fixed;
   inset: 0;
   z-index: 0;
-  background: #000;
-}
-
-#bg::after,
-#bg::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-}
-
-#bg::after{
+  background-color: #000;
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: calc(var(--bg-pos-x) + var(--parallax-x)) calc(var(--bg-pos-y) + var(--parallax-y));
   background-size: var(--bg-fit);
   transform: scale(var(--bg-zoom));
   transform-origin: center;
-  z-index: 1;
-  transition: background-position 120ms linear;
+}
+
+#bg::after{
+  display: none;
 }
 
 #bg::before{
@@ -131,6 +123,9 @@ body{
     rgba(0,0,0,1) var(--reveal-radius)
   );
 
+  content: "";
+  position: absolute;
+  inset: 0;
   z-index: 2;
 }
 
