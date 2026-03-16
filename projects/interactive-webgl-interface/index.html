@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+  Project: Interactive WebGL Interface
+  Author: Roman Jahandideh
+  Copyright: © 2026 Roman Jahandideh. All rights reserved.
+  Notes:
+  - Portfolio interaction system designed for authorship attribution and GitHub publication.
+  - Keep this header intact for repository provenance and project ownership context.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roman Jahandideh | Technical Artist & Environment Designer</title>
+
+  <meta name="author" content="Roman Jahandideh" />
+  <meta name="copyright" content="© 2026 Roman Jahandideh. All rights reserved." />
+  <meta
+    name="description"
+    content="Interactive frontend portfolio experiment by Roman Jahandideh featuring adaptive cursor lighting, gaze-reactive eyes, hidden scene discoveries, and live interaction controls."
+  />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  <!-- Spotlight background -->
+  <div id="bg" aria-hidden="true"></div>
+
+  <!-- Minimal navigation -->
+  <header id="site-nav">
+    <nav class="minimal-nav" aria-label="Primary">
+      <a href="index.html" class="minimal-nav__item is-current">Home</a>
+      <a href="work/index.html" class="minimal-nav__item">Work</a>
+      <a href="#about" class="minimal-nav__item">About</a>
+      <a href="#contact" class="minimal-nav__item">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main id="top" class="hero" role="main" data-author="Roman Jahandideh">
+    <!-- Eyes -->
+    <div id="eyes" aria-hidden="true">
+      <div class="eye"><div class="pupil"></div></div>
+      <div class="eye"><div class="pupil"></div></div>
+    </div>
+
+    <!-- Hidden exploration hotspots -->
+    <div class="scene-hotspots" aria-hidden="true">
+      <button
+        class="scene-hotspot"
+        type="button"
+        data-hotspot="specimen jar"
+        data-label="Specimen Jar"
+        data-copy="A small interaction trigger responding to light proximity."
+        style="left: 57.5%; top: 55%;"
+        tabindex="-1"
+      ></button>
+
+      <button
+        class="scene-hotspot"
+        type="button"
+        data-hotspot="workbench glow"
+        data-label="Workbench Glow"
+        data-copy="The reveal system shifts focus through cursor-driven masking."
+        style="left: 49.5%; top: 60%;"
+        tabindex="-1"
+      ></button>
+
+      <button
+        class="scene-hotspot"
+        type="button"
+        data-hotspot="hanging silhouette"
+        data-label="Hanging Silhouette"
+        data-copy="Hidden objects become discoverable through attention-based interaction."
+        style="left: 60.8%; top: 26.5%;"
+        tabindex="-1"
+      ></button>
+    </div>
+
+    <!-- Hero content -->
+    <div class="hero-content">
+      <h1 class="name">
+        <span class="first-name">Interactive</span>
+        <span class="last-name">WebGL Interface</span>
+      </h1>
+
+      <p class="role">
+        Exploring reactive gaze behavior and mouse-driven lighting to guide attention within a 3D environment.
+      </p>
+
+      <a class="play-btn" href="game/index.html">GitHub</a>
+    </div>
+
+    <div class="page-footer">
+      © 2026 Roman Jahandideh. All rights reserved.
+    </div>
+
+    <!-- Discovery feedback -->
+    <aside id="discovery-chip" class="discovery-chip" aria-live="polite" aria-atomic="true">
+      <div class="discovery-chip__eyebrow">Scene Discovery</div>
+      <div class="discovery-chip__title">Ready</div>
+      <div class="discovery-chip__copy">Move the light across the scene to reveal hidden interaction points.</div>
+    </aside>
+
+    <!-- Hidden debug panel -->
+    <section id="debug-panel" class="debug-panel" aria-label="Interaction controls" hidden>
+      <div class="debug-panel__header">
+        <h2>Interaction Controls</h2>
+        <span class="debug-panel__hint">Press D to toggle</span>
+      </div>
+
+      <label class="debug-control">
+        <span>Reveal Radius</span>
+        <input id="debug-radius" type="range" min="140" max="320" step="1" value="220">
+      </label>
+
+      <label class="debug-control">
+        <span>Reveal Softness</span>
+        <input id="debug-softness" type="range" min="80" max="220" step="1" value="160">
+      </label>
+
+      <label class="debug-control">
+        <span>Eye Sensitivity</span>
+        <input id="debug-eye-sensitivity" type="range" min="0.4" max="1.5" step="0.01" value="1">
+      </label>
+
+      <label class="debug-control">
+        <span>Parallax Strength</span>
+        <input id="debug-parallax" type="range" min="0" max="28" step="1" value="12">
+      </label>
+    </section>
+  </main>
+
+  <!-- ABOUT -->
+  <section id="about" class="panel" aria-label="About">
+    <div class="panel-inner">
+      <h2>About</h2>
+      <p>Write your about content here.</p>
+      <a class="panel-close" href="#top" aria-label="Close about">Close</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="panel" aria-label="Contact">
+    <div class="panel-inner">
+      <h2>Contact</h2>
+      <p>Write your contact content here.</p>
+      <a class="panel-close" href="#top" aria-label="Close contact">Close</a>
+    </div>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/nav.js"></script>
+</body>
+</html>
