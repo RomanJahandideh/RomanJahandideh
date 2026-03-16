@@ -10,7 +10,7 @@
   --font: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 
   /* Background */
-  --bg-image: url("../../images/bg.jpg");
+ --bg-image: url("../../images/bg.jpeg");
   --bg-zoom: 1;
   --bg-pos-x: 50%;
   --bg-pos-y: 50%;
