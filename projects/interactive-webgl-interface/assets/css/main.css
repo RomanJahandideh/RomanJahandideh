@@ -10,15 +10,15 @@
   --font: "Montserrat", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 
   /* Background */
-  --bg-image: url("../../bg.jpeg");
+  --bg-image: url("../../images/bg.jpeg");
   --bg-zoom: 1;
   --bg-pos-x: 50%;
   --bg-pos-y: 50%;
-  --bg-fit: cover;
+  --bg-fit: contain;
 
-  --mask-darkness: 0.55;
-  --reveal-radius: 420px;
-  --reveal-softness: 260px;
+  --mask-darkness: 0.86;
+  --reveal-radius: 220px;
+  --reveal-softness: 160px;
 
   --mx: 50%;
   --my: 50%;
