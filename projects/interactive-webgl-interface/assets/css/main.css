@@ -14,7 +14,7 @@
   --bg-zoom: 1;
   --bg-pos-x: 50%;
   --bg-pos-y: 50%;
-  --bg-fit: contain;
+  --bg-fit: cover;
 
   --mask-darkness: 0.86;
   --reveal-radius: 220px;
