@@ -26,7 +26,7 @@ I am particularly interested in human–AI collaboration, computational design, 
 
 A heart-rate-driven biofeedback environment developed in Unity. The project investigates how physiological signals can influence the visual and environmental dynamics of an interactive game world.
 
-[View repository](https://github.com/RomanJahandideh/BioTerrarium)
+[View repository](https://github.com/RomanJahandideh/embedding-physiological-responsiveness)
 
 ### Reading a Remote Teammate's Body
 
