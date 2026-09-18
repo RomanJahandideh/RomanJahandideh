@@ -28,11 +28,12 @@ A heart-rate-driven biofeedback environment developed in Unity. The project inve
 
 [View repository](https://github.com/RomanJahandideh/BioTerrarium)
 
-### Reading a Remote Teammate’s Body
+### Reading a Remote Teammate's Body
 
-An HCI research project investigating the visual communication of a remote teammate’s heart rate and heart-rate variability through animated icons.
+An HCI research project investigating the visual communication of a remote teammate's heart rate and heart-rate variability through animated icons, evaluated in a live multiplayer cooperative-play study.
 
-[View repository](https://github.com/RomanJahandideh/reading-a-remote-teammates-body)
+[View paper repository](https://github.com/RomanJahandideh/reading-a-remote-teammates-body)  
+[View multiplayer prototype](https://github.com/RomanJahandideh/teammate-experiment-unity)
 
 ### HR–HRV Experiment System
 
@@ -40,6 +41,18 @@ A web-based research platform designed for validating animated physiological-dat
 
 [View repository](https://github.com/RomanJahandideh/HR-HRV-experiment-design-and-data-collection-system)  
 [View research website](https://biofeedbackexperiment.netlify.app/)
+
+### Testing Cybersickness in Passive and Active VR Locomotion
+
+A research study run through the iSpace Research Lab (Simon Fraser University), comparing passive and active VR locomotion using an open-source cybersickness benchmark across SteamVR headsets.
+
+[View repository](https://github.com/RomanJahandideh/VRSickness_Benchmark)
+
+### A Portfolio You Walk Through
+
+A twelve-level architectural walking game built in p5.js and WebGL that replaces a static CV: completing each level's spatial puzzle is what unlocks the next chapter of information.
+
+[Play the game](https://romanjahandideh.com/game/index.html)
 
 ## Portfolio
 
@@ -70,6 +83,7 @@ Explore my interactive systems, architectural work, game-design projects, UI/UX 
 
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
+![p5.js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
