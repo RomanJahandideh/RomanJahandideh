@@ -52,7 +52,7 @@ A research study run through the iSpace Research Lab (Simon Fraser University), 
 
 A twelve-level architectural walking game built in p5.js and WebGL that replaces a static CV: completing each level's spatial puzzle is what unlocks the next chapter of information.
 
-[Play the game](https://romanjahandideh.com/game/index.html)
+[View repository](https://github.com/RomanJahandideh/gamified-portfolio) · [Play the game](https://romanjahandideh.com/game/index.html)
 
 ## Portfolio
 
